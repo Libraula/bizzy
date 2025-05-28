@@ -168,7 +168,7 @@ export function Footer() {
       <div className="border-t border-gray-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-brand-grey text-sm">&copy; 2024 Bizzy Tours and Travels. All rights reserved.</p>
+            <p className="text-brand-grey text-sm">&copy; 2025 Bizzy Tours and Travels. All rights reserved.</p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <Link href="#" className="text-brand-grey hover:text-white text-sm transition-colors duration-200">
                 Privacy Policy

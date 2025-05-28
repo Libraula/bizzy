@@ -182,17 +182,16 @@ export default function HomePage() {
               guided tours. From gorilla trekking to Nile adventures - your African dream awaits!
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-              <Button size="lg" className="bg-white text-primary-red hover:bg-primary-grey text-lg px-8 py-4">
+              <Button size="lg" className="bg-brand-gold text-white text-lg px-8 py-4">
                 <Globe className="mr-2 h-6 w-6" />
-                <Link href="/activities">Explore Tours</Link>
+                <Link href="/activities" className="text-white">Explore Uganda</Link>
               </Button>
               <Button
                 size="lg"
-                variant="outline"
-                className="border-white text-white hover:bg-white hover:text-primary-red text-lg px-8 py-4"
+                className="bg-brand-gold text-white text-lg px-8 py-4"
               >
                 <Calendar className="mr-2 h-6 w-6" />
-                <Link href="#packages">View Packages</Link>
+                <Link href="#packages" className="text-white">Start Consultation</Link>
               </Button>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
